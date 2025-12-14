@@ -36,3 +36,28 @@
 			</div>			
 		</div>
 	</footer>
+	
+
+
+	<span class="scrollup" id="btn-scrollup"><i class="fa fa-angle-up" aria-hidden="true"></i></span>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function () {
+		    jQuery(window).scroll(function () {
+		        if (jQuery(this).scrollTop() > 100) {
+		            jQuery('#btn-scrollup').fadeIn();
+		        } else {
+		            jQuery('#btn-scrollup').fadeOut();
+		        }
+		    });
+
+		    jQuery('#btn-scrollup').click(function () {
+		        jQuery("html, body").animate({
+		            scrollTop: 0
+		        }, 600);
+		        return false;
+		    });
+		});
+	</script>
+
+    <?php wp_footer(); ?>
