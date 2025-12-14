@@ -1,9 +1,9 @@
 /*
-Theme Name: Computer
-Theme URI: http://localhost/cse454.com/computer/
+Theme Name: Computer 454
+Theme URI: http://localhost/cse454.com.vn/
 Description: A custom theme for my WordPress site.
-Author: Nghia
-Author URI: https://example.com/your-profile/
+Author: Hung
+Author URI: https://your-website.com/
 Version: 1.0.0
 */
 .container {
@@ -103,6 +103,8 @@ a, a:hover {
 	background-color: #22549d;
 	height: 44px;
 	overflow: visible;
+	position: relative;
+	z-index: 50;
 }
 .menu-position {
 	position: relative;
@@ -126,7 +128,7 @@ a, a:hover {
 	display: none;
 	position: absolute;
 	background-color: #fff;
-	z-index: 100;
+	z-index: 99;
 	left: 15px;
 	right: 15px;
 }
@@ -140,7 +142,7 @@ a, a:hover {
 }
 .menu-groups .main-menu li {
 	position: relative;
-	z-index: 100;
+	z-index: 99;
 }
 .menu-groups .main-menu li a {
 	display: block;
@@ -198,6 +200,9 @@ a, a:hover {
 .slogan-group {
 	margin-top: 40px;
 	margin-bottom: 40px;
+	clear: both;
+	position: relative;
+	z-index: 1;
 }
 .slogan {
 	background-color: #f5f5f5;
@@ -213,6 +218,9 @@ a, a:hover {
 .san-pham-group {
 	/*border: 2px solid #ececec;*/
 	font-size: 16px;
+	position: relative;
+	z-index: 1;
+	clear: both;
 }
 .san-pham-group .title-background {
 	/*border-bottom: 2px solid #ececec;*/
@@ -274,7 +282,7 @@ a, a:hover {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	z-index: 100;
+	z-index: 10;
 	color: #fff;
 	background-color: rgba(0, 0, 0, 0.5);
 	padding: 15px;
