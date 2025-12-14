@@ -35,11 +35,9 @@
 				Copyright &copy; 2025 Vi tính Đức Thành.
 			</div>			
 		</div>
-	</footer>
 	
-
-
-	<span class="scrollup" id="btn-scrollup"><i class="fa fa-angle-up" aria-hidden="true"></i></span>
+	</footer>
+		<span class="scrollup" id="btn-scrollup"><i class="fa fa-angle-up" aria-hidden="true"></i></span>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 	<script type="text/javascript">
 		jQuery(document).ready(function () {
@@ -59,5 +57,7 @@
 		    });
 		});
 	</script>
-
-    <?php wp_footer(); ?>
+		<?php wp_footer(); ?>
+</body>
+</html>
+	

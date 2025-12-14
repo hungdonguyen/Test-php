@@ -9,8 +9,9 @@
 	<title>Vi tính Đức Thành | Chuyên mua bán, sửa chữa laptop, máy bộ, gaming &#8211; nạp mực máy in &#8211; lắp đặt camnera &#8211; Mỹ Phước, Bến Cát, Bình Dương, Bàu Bàng</title>
 	<!-- <link rel='stylesheet' id='blankslate-style-css' href='http://10.10.114.221/ducthanhcomputer/wp-content/themes/ducthanh/style.css?ver=6.2.8' type='text/css' media='all' /> -->
 	 <link rel='stylesheet' id='blankslate-style-css' href='<?php echo get_theme_file_uri('style.css'); ?>' type='text/css' media='all' />
+	 <?php wp_head(); ?>
 </head>
-<body class="home blog">
+<body class="home blog"></body>
 <header>
 	<div class="middle-header">
 		<div class="container">
@@ -147,4 +148,3 @@
 		</div>
 	</div>
 </header>	
-<?php wp_header(); ?>

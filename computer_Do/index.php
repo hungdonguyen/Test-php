@@ -1,3 +1,4 @@
+
 <?php get_header(); ?>
 <nav class="main-mobile-menu-group">
 	<div class="mobile-hide">&times;</div>			
@@ -638,5 +639,5 @@ Tốc độ làm tươi: 60Hz<br />
 	</div>
 </main>
 	<?php get_footer(); ?>
-</body>
-</html>
+	
+
